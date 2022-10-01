@@ -53,7 +53,7 @@ class Feedback extends Component {
                 positiveRate={this.countPositiveFeedbackPercentage()}
               />
             ) : (
-              <h2>There is no feedback</h2>
+              <h2 style={{ textAlign: 'center' }}>There is no feedback</h2>
             )}
           </Section>
         </Container>

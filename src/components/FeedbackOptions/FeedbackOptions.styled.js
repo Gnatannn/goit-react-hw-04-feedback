@@ -5,6 +5,7 @@ export const List = styled.ul`
   justify-content: center;
   gap: 20px;
   list-style: none;
+  padding: 5px;
 `;
 
 export const Button = styled.button`
